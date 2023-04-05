@@ -1,0 +1,40 @@
+/* NAv BAr */
+.navbar-nav a{
+  font-size: 18px;
+}
+.carsousel-item img{
+  height: 550px;
+}
+
+.cartProductContainer{
+  border: 1px solid #000;
+  margin: 5px;
+}
+.cartProductContainer img{
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  background-size: contain;
+}
+
+.total{
+  font-size: 3rem;
+}
+.statusContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: bottom;
+  /* align-items: center; */
+  text-align: bottom;
+  position: sticky;
+  top: 0;
+  height: 300px;
+  
+}
+#carouselExampleIndicators
+{
+       display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
